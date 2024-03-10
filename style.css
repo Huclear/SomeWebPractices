@@ -1,0 +1,338 @@
+header{
+    background: url("images\\Bitmap.png");
+    width: 100%;
+    height: 1015px;
+    background-repeat: round;
+}
+.header-Some{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 23px 0 130px 0;
+}
+
+.container-new{
+    max-width: 1300px;
+    margin: 0px auto ;
+    padding: 0px 15%;
+}
+
+.text-container{
+    padding: 25px;
+}
+
+.text-color-white{
+    color: #FFF;
+}
+
+.test1{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0 0 23px 0;
+
+}
+.test2{
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0px 0px 24px 0px;
+}
+.test3{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0px 0px 45px 0px;
+}
+.test4{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+    font-family: FontAwesome;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+}
+
+.some_shell{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    max-width: 190px;
+}
+
+.main_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.main_header{
+    display: flex;
+    color: #4D533C;
+    flex-wrap: wrap;
+}
+
+.text_header{
+    color: #4D533C;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.text_level1{
+    display: flex;
+    color: #21384299;
+    flex-wrap: wrap;
+}
+
+.link_text_gold{
+    color: #FFD723;
+    font-weight: bold;
+}
+
+.link_text_gray{
+    color: #D4D6D4;
+    font-weight: bold;
+}
+
+
+.footer{
+    background-color: #50583b;
+    width: 100%;
+    height: 920px;
+    margin-top: 326px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.black{
+    background: url("images/bitmapFooter.png");
+    height: 692px;
+    width: 100%;
+    background-repeat: round;
+    display: block;
+    position: relative;
+}
+
+.back::after{
+    content:"";
+    background: url("images/bitmapFooter.png");
+    background-repeat: round;
+    position: absolute;
+    opacity: 0.3;
+    z-index: 99;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 692px;
+    width: 100%;
+}
+
+.title{
+    margin: 0;
+font-family: 'Poppins';
+font-weight: 400;
+font-size: 16px;
+line-height: 40px;
+color: #B6C197;
+}
+.content{
+font-family: 'Poppins';
+font-weight: 700;
+font-size: 16px;
+line-height: 40px;
+color: #FFFFFF;
+}
+.display_text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer_other{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.mail_link{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 38px;
+color: #FFFFFF;
+}
+
+.other_container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.divider{
+    margin: 0px;
+    opacity: 0.4;
+}
+.divider2{
+    margin: 15px;
+    opacity: 0.4;
+}
+
+.round_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.circl{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.popup{
+    width: 80%;
+    height: 362px;
+    border: 1px solid #00000024;
+    background: #ffffff ;
+    position: absolute;
+    bottom: -180%
+}
+.section_text{
+    font-family: Poppins;
+font-size: 60px;
+font-weight: 700;
+line-height: 74px;
+letter-spacing: 0px;
+text-align: left;
+}
+.text-s-2{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+@media  screen and (max-width:980px) {
+    header {
+        background: url(images\\Bitmap.png);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+    }
+    .container-new {
+        max-width: 1300px;
+        margin: 0px auto;
+        padding: 0px 30px;
+    }
+    .test2 {
+        font-size : 32px;
+        line-height: 44px;
+    }
+    .text-container{
+        width: 100%;
+        padding: 30px;
+    }
+    .main_container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .some_shell {
+        display: flex;
+        flex-direction: column;
+        max-width: 190px;
+    }
+    .text_header {
+        color: #4D533C;
+        font-family: sans-serif;
+        font-size: 30px;
+    }
+    .text_level1 {
+        display: flex;
+        color: #21384299;
+        flex-wrap: wrap;
+    }
+    .popup {
+        width: 80%;
+        height: 297px;
+        border: 1px solid #00000024;
+        background: #ffffff;
+        position: absolute;
+        bottom: -140%;
+    }
+    .section_text {
+        font-size: 32px;
+        line-height: 44px;
+    }
+    .text-s-2 {
+        font-size: 14px;
+    }
+    .divider {
+        display: none;
+    }
+    .title {
+        margin: 0;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 30px;
+        color: #B6C197;
+    }
+    .other_container {
+        height: 210px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .mail_link {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    .content {
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+}
+
+
+
+
